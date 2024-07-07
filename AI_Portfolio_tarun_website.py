@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 
-api_keyy=st.secrets["AIzaSyDQrF1U_4DVHrZODs1w2yJdQLEUlGK9WGI"]
+api_keyy=st.secrets["Google API KEY"]
 
 genai.configure(api_key=api_keyy)
 
