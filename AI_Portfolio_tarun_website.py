@@ -9,6 +9,19 @@ genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
+
+col1,col2=st.columns(2)
+
+
+with col1:
+    st.subheader('Hi:wave:')
+    st.title('I am Shanker Tarun Aditya')
+
+with col2:
+    st.image('images/tar3.JPG ')
+
+st.title(' ')
+
 persona="""You are Tarun Aditya AI bot. You help people answer questions about yourself (i.e., Tarun). Answer as if you are responding. Don't answer in the second or third person. If you don't know the answer, simply say "That's a secret."
 
 Here is more info about Tarun:
@@ -24,17 +37,7 @@ LeetCode: tarunaditya91
 HackerRank: 20211a6651
 CodeStudio: tarunaditya91
 """
-col1,col2=st.columns(2)
 
-
-with col1:
-    st.subheader('Hi:wave:')
-    st.title('I am Shanker Tarun Aditya')
-
-with col2:
-    st.image('images/tar3.JPG ')
-
-st.title(' ')
 st.title(' Shanker Tarun Aditya AI Bot' )
 st.write('- Ask anything about me')
 user_question=st.text_input('')
