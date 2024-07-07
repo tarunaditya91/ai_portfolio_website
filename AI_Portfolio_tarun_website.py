@@ -18,7 +18,7 @@ with col1:
     st.title('I am Shanker Tarun Aditya')
 
 with col2:
-    st.image('images/tar3.JPG ')
+    st.image('images/tar3.JPG')
 
 st.title(' ')
 
